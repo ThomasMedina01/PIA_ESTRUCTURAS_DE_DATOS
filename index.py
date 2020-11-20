@@ -93,7 +93,7 @@ try:
                 venta.guardar_ticket()
 
 
-                reg = input("¿Desea agregar mas articulos a la transaccion? \n Presione 1 para continuar o dos para salir: ")
+                reg = input("¿Desea agregar mas articulos a la transaccion? \n Presione 1 para continuar o 2 para salir: ")
                 while Validacion.continuar(reg) == False:
                     intentos -= 1
                     print(separador)
